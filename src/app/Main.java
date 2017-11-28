@@ -89,7 +89,7 @@ public class Main {
 		Map < String, Object > data = new HashMap < String, Object > ();
         data.put("body", usuarios);
         data.put("listids", listIds);
-        data.put("name", "Lista 1");
+        //data.put("name", "Lista 1");
 
       String str = http.import_users(data);
       System.out.println(str);
